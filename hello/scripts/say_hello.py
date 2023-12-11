@@ -1,6 +1,7 @@
 from colorama import Fore, Style
 import time
 
+
 def main():
     print(Fore.RED + "Hello!" + Style.RESET_ALL)
     time.sleep(2)
@@ -12,4 +13,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
